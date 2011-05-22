@@ -1,79 +1,18 @@
-guru - A Conversational AI Bot
-(http://guru.maplef.net/)
+guru - A Conversational AI Robot
+(http://code.google.com/p/pidgin-plugin-dbus-reply-robot-guru/)
 Copyright (C) 2011 maple (maple@maplef.net)
+
 
 ABOUT GURU
 -----------
-guru is a conversational AI -- a computer program you can talk to.  He
-is designed to be simple to install, configure and (above all) extend.
+guru is a conversational robot -- a computer program you can talk to. 
+guru has only been test under ubuntu 10.04 + pidigin 2.7.11, there is no g that 
 
-guru is Friendly.
-Currently, guru is willing to discuss religion, sports, sex (reluctantly),
-and philosophy.  He even knows a little German!
-
-guru is Helpful.
-guru is able to answer most questions of the form "Who/what/where/when 
-is/was/are/were X?" -- though his answers are occasionally more
-entertaining than accurate. He can also help find rhymes for a word, or
-tell you what an acronym means. He will someday provide definitions or
-synonyms for any word in the dictionary, query your address book, and even
-perform a few simple remote system-administration tasks!
-
-guru is Connected.
-You can communicate with guru in a number of different ways: AIM, ICQ, IRC, MSN
-Messenger, Jabber Chat, XML-RPC, or locally on the command-line. Future
-versions will include interfaces for HTTP, Zephyr, and more!
-guru's knowledge base is made up of a wide variety of Internet resources.
-If you find something that he can't do, it's usually pretty
-straightforward to teach him!
-
-SYSTEM REQUIREMENTS
--------------------
-guru has been tested on Windows XP, Red Hat Linux and NetBSD.  However,
-he should work on any system that meets the following requirements:
- - Python 2.2.x or greater.
- - 64 MB available RAM (depending on the AIML set you're using)
- - Dedicated Internet connection
- - The Twisted framework (http://twistedmatrix.com/products/twisted).
-   You must have Twisted installed in order to run guru from the source.
-   NOTE: The Windows binary distribution already includes Twisted.
-
-NOTE: There is a known problem with guru running under Windows 95, having
-to do with Python's os.popen() function not working on that platform.
-
-INSTALLATION (Windows binary distribution)
-------------------------------------------
-1. Run the installer (you've done that).
-2. Edit the howie.ini file, found in the directory where you installed guru.
-   (You can access this file through the "guru->Configure guru" shortcut in
-   your Start Menu).  This file lets you set up the interfaces presented to
-   visitors (AIM, MSN, etc.) as well as customize guru's behavior.  Each
-   section has an "active" parameter, which indicates whether that module is
-   active ("yes") or not.
-3. To test guru in local-mode (text console interface only), use the
-   "guru->Run guru (local)" shortcut in your Start Menu.  This will let you
-   chat with guru without opening any connections to the Internet.
-4. Once you're satisfied with your setup, run the "guru->Run guru" shortcut,
-   found in your Start Menu.  This launches guru and makes him available to
-   world at large!
-
-INSTALLATION (Source distribution)
+GET STARTED (Source distribution)
 ----------------------------------
 1. Unzip the archive (you've done that).
-2. UNIX USERS: run the "unix-install.py" script found in the main guru
-   directory.  It will automatically configure guru to run in a UNIX-like
-   environment.
-3. Edit the howie.ini file, found in the directory where you installed guru.
-   This file lets you set up the interfaces presented to visitors (AIM, MSN,
-   etc.) as well as customize guru's behavior.  Each section has an "active"
-   parameter, which indicates whether that module is active ("yes") or not.
-4. To test guru locally, run "runme.py -l" in the main guru directory.
-   This lets you chat with guru without activating any of his network
-   services.
-5. Once you're satisfied with your setup, run "runme.py" in the main guru
-   directory.  This launches guru and makes him available to the world at
-   large!
-
+2. Edit the guru.ini file to customize your own bot 
+3. run "guru.py" in the main guru directory.
 
 ACKNOWLEDGEMENTS
 ----------------
@@ -87,11 +26,3 @@ homepage at http://www.alicebot.org/.
 
 Hooray for Python! (http://www.python.org/)
 
-
-0. what is guru?
-guru is an auto reply robot designed for pidgin under linux system.
-
-1. how to get start?
-(1) guru has only been test under ubuntu 10.04 + pidigin 2.7.11, there is no  that 
-
-2. what can guru do?
