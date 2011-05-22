@@ -82,7 +82,7 @@ class aiBrain:
     #得到某个用户某个消息的回复
     def response(self,user,q):
         user = configGuru.filter_string(user)
-        q = configGuru.filter_string(q)
+        #q = configGuru.filter_string(q)
         a = self.get_ai().respond(q, user)
         return a
     
