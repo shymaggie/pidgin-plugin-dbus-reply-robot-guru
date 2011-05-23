@@ -1,6 +1,7 @@
-#Sat May 21 14:16:09 CST 2011
+#Mon May 23 09:43:12 CST 2011
 eclipse.preferences.version=1
 encoding//src/aiBrain.py=utf-8
+encoding//src/aiml/Kernel.py=latin1
 encoding//src/answer.py=utf-8
 encoding//src/configGuru.py=utf-8
 encoding//src/guru.py=utf-8

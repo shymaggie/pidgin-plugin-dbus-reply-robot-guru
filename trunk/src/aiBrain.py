@@ -6,7 +6,8 @@ pyaiml module (http://pyaiml.sourceforge.net/)used here
 Created on May 20, 2011
 @author: maple
 '''
-import aiml,configGuru,os
+import aiml
+import configGuru,os
 import traceback
 import cPickle as p
 
@@ -21,7 +22,7 @@ class aiBrain:
         if os.path.isfile(self.brainFile):
             guru.bootstrap(brainFile = self.brainFile)
         else:
-            guru.bootstrap(learnFiles = "data/std-startup.xml", commands = "load aiml b")
+            guru.bootstrap(learnFiles = "std-startup.xml", commands = "load aiml b")
             guru.saveBrain(self.brainFile)
         guru.setTextEncoding("utf8")
         # Initialize bot predicates

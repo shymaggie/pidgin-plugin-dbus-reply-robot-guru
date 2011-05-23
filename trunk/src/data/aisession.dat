@@ -27,120 +27,132 @@ aV\u4f60\u7231\u6211\u5417
 p15
 aVMUSIC
 p16
-asS'_outputHistory'
+aVhow are you
 p17
-(lp18
-VA deeper algorithm is needed to respond to that correctly. How old are you?
+aVwhat time is it now
+p18
+aVdo you like me
 p19
-aVWhat you said was either too complex or too simple for me. What is your favorite movie?
+asS'_outputHistory'
 p20
-aVI've never seen \u4f60\u7231\u6211\u5417. What did you like about it?
-p21
-aVMy brain pattern set does not have a response for that. How old are you?
+(lp21
+VA deeper algorithm is needed to respond to that correctly. How old are you?
 p22
-assS'_global'
+aVWhat you said was either too complex or too simple for me. What is your favorite movie?
 p23
-(dp24
-g11
-(lp25
-sg6
-(lp26
-sg17
-(lp27
-ssS'maple'
+aVI've never seen \u4f60\u7231\u6211\u5417. What did you like about it?
+p24
+aVMy brain pattern set does not have a response for that. How old are you?
+p25
+aVEverything is running smoothly.
+p26
+aVOh.\u000aTime does not exist.
+p27
+aVSure,  I like you very much.
 p28
-(dp29
-Vfavmovie
-p30
-Vblue fairy
-p31
-sVage
-p32
-V23
-p33
+assS'_global'
+p29
+(dp30
+g11
+(lp31
 sg6
-(lp34
-sVit
-p35
-Vwalking
+(lp32
+sg20
+(lp33
+ssS'maple'
+p34
+(dp35
+Vfavmovie
 p36
-sVtopic
+Vblue fairy
 p37
-g36
-sg11
-(lp38
-Vhello
+sVage
+p38
+V23
 p39
-aVmaple
-p40
-aVblue fairy
+sg6
+(lp40
+sVit
 p41
-aVwhere are you
+Vwalking
 p42
-aVbeijing
+sVtopic
 p43
-aVwhat i your name
-p44
-aVen
-p45
-aVi am 23
-p46
-aVwalking
-p47
-aVyes
-p48
-asVhaircolor
-p49
-Vwhat i your name
-p50
-sg17
-(lp51
-VWhat can I call you?
-p52
-aVThe ALICE chat robot can follow many things, like our discussion about maple. Try being more or less specific. What is your favorite movie?
-p53
-aVI've never seen blue fairy. I would like to see it.
-p54
-aVI am in maple's computer in beijing. Where are you?
-p55
-aVI lost my train of thought. What color is your hair?
-p56
-aVwhat i your name is a nice hair color.
-p57
-aVA deeper algorithm is needed to respond to that correctly. How old are you?
-p58
-aVWhat is your fondest memory?
-p59
-aVDo you think a lot of people have that experience?
-p60
-aV"Do you think a lot of people have that experience?"? Yes?
-p61
-assV499625498
-p62
-(dp63
-Vtopic
-p64
-VLETSTALKABOUTSOMETHINGABOUTMOVIE
-p65
+g42
 sg11
-(lp66
-V\u662f\u4e48
+(lp44
+Vhello
+p45
+aVmaple
+p46
+aVblue fairy
+p47
+aVwhere are you
+p48
+aVbeijing
+p49
+aVwhat i your name
+p50
+aVen
+p51
+aVi am 23
+p52
+aVwalking
+p53
+aVyes
+p54
+asVhaircolor
+p55
+Vwhat i your name
+p56
+sg20
+(lp57
+VWhat can I call you?
+p58
+aVThe ALICE chat robot can follow many things, like our discussion about maple. Try being more or less specific. What is your favorite movie?
+p59
+aVI've never seen blue fairy. I would like to see it.
+p60
+aVI am in maple's computer in beijing. Where are you?
+p61
+aVI lost my train of thought. What color is your hair?
+p62
+aVwhat i your name is a nice hair color.
+p63
+aVA deeper algorithm is needed to respond to that correctly. How old are you?
+p64
+aVWhat is your fondest memory?
+p65
+aVDo you think a lot of people have that experience?
+p66
+aV"Do you think a lot of people have that experience?"? Yes?
 p67
-aVHOWAREYOUFEELINGTODAY
+assV499625498
 p68
-aVLETSTALKABOUTSOMETHINGABOUTMOVIE
-p69
-asg6
-(lp70
-sg17
-(lp71
-VTry saying that with more or less context. If you could have any kind of robot what would it be?
-p72
-aVTell me a story. How old are you?
+(dp69
+Vtopic
+p70
+VLETSTALKABOUTSOMETHINGABOUTMOVIE
+p71
+sg11
+(lp72
+V\u662f\u4e48
 p73
-aVPerhaps I'm just expressing my own concern about it. What is your favorite color?
+aVHOWAREYOUFEELINGTODAY
 p74
-asVit
+aVLETSTALKABOUTSOMETHINGABOUTMOVIE
 p75
-g65
+asg6
+(lp76
+sg20
+(lp77
+VTry saying that with more or less context. If you could have any kind of robot what would it be?
+p78
+aVTell me a story. How old are you?
+p79
+aVPerhaps I'm just expressing my own concern about it. What is your favorite color?
+p80
+asVit
+p81
+g71
 ss.
