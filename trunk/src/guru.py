@@ -34,7 +34,7 @@ class guru:
         msg = "%s: %s" % (bot,m)
         self.pidgin.PurpleConvImSend(im, msg)
         self.msg_sessions[str(sender)] = time.time()
-        logging.info("message sent to %s : %s",sender, m)
+        logging.info("message sent to %s : %s",str(sender), m.decode("utf-8"))
     
     #发送欢迎消息
     def sendWelcomeMessage(self,account,sender,conversation,flags):
