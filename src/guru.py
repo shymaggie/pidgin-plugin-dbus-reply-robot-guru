@@ -12,6 +12,8 @@ class guru:
     msg_sessions = {}    
     #开启回复的状态 3=away, 4=invisible,5=unavailable,6=extended
     botstatus =[3,4,5,6]
+    #设置与AI有关的提示，使其只出现一次
+    popup = {}
     pidgin = None
     guru_ai = None
     guru_kv = None
@@ -90,9 +92,15 @@ class guru:
         if reply == None:
             reply = self.get_ai_replymessage(sender, message)
             self.sendMessage(reply, account, sender, conversation, flags, self.ai_name)
-            reply = "%s还比较笨，不懂你在说什么，上面的话是%s的朋友%s说的。" % (self.guru_cname,self.guru_cname,self.ai_name)
-            reply += " 你可以使用 \"Q:问题内容 A:回答内容\" 来教会%s，或者可以继续同%s聊天" % (self.guru_cname,self.ai_name)
-        self.sendMessage(reply, account, sender, conversation, flags, self.guru_name)
+            #第一次给出ai回复时同样给出提示
+            print "conversation:%s" % str(conversation)
+            if not self.popup.has_key(str(conversation)):
+                reply = "%s还比较笨，不懂你在说什么，上面的话是%s的朋友%s说的。" % (self.guru_cname,self.guru_cname,self.ai_name)
+                reply += " 你可以使用 \"Q:问题内容 A:回答内容\" 来教会%s，或者可以继续同%s聊天" % (self.guru_cname,self.ai_name)
+                self.sendMessage(reply, account, sender, conversation, flags, self.guru_name)
+                self.popup[str(conversation)] = 1
+        else:
+            self.sendMessage(reply, account, sender, conversation, flags, self.guru_name)
         return None
     
     def bye(self,account,sender,message,conversation,flags):
